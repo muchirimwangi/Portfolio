@@ -1,0 +1,32 @@
+{
+  "name": "Peter",
+  "tagline": "Software Developer • Off-grid Builder • ICT Technician",
+  "about": "I'm a developer based in Murang'a County, Kenya, building web platforms for education, small business, and community tools. This site is a work in progress — more coming soon.",
+  "skills": [
+    "PHP / Laravel",
+    "JavaScript",
+    "React",
+    "MySQL",
+    "HTML/CSS",
+    "C Programming",
+    "Networking"
+  ],
+  "projects": [
+    {
+      "title": "SomaPass",
+      "description": "CDACC exam revision platform for Kenyan TVET students.",
+      "link": "https://somapass.co.ke"
+    },
+    {
+      "title": "More projects coming soon",
+      "description": "This section updates as new work ships.",
+      "link": ""
+    }
+  ],
+  "contact": [
+    { "label": "Email", "url": "mailto:you@example.com" },
+    { "label": "GitHub", "url": "https://github.com/yourusername" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/yourusername" }
+  ],
+  "footer": "© 2026 Peter. Built with HTML, CSS & JS."
+}
