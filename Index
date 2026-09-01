@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+  <header class="hero">
+    <h1 id="hero-name"></h1>
+    <p id="hero-tagline" class="typing"></p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p id="about-text"></p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div id="skills-list" class="skills-grid"></div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projects-list" class="projects-grid"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Get in touch</h2>
+      <div id="contact-list" class="contact-links"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
