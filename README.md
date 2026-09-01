@@ -1,8 +1,8 @@
-# My Professional Portfolio
+# Muchiri - Professional Portfolio
 
 ## 🎯 Overview
 
-Welcome to my professional portfolio website! This is a modern, responsive portfolio showcasing my expertise as both an **ICT Technician** and a **Data Annotation Specialist**.
+Welcome to **Muchiri**, a professional portfolio website showcasing expertise as both an **ICT Technician** and a **Data Annotation Specialist**.
 
 ## 🌟 Features
 
@@ -12,7 +12,7 @@ Welcome to my professional portfolio website! This is a modern, responsive portf
 - Responsive avatar placeholder
 
 ### 2. **Professional Sections**
-- **About Me**: Dual career overview (ICT Technician & Data Annotation Specialist)
+- **About Muchiri**: Dual career overview (ICT Technician & Data Annotation Specialist)
 - **Technical Skills**: Comprehensive skill display across 4 categories
 - **Data Annotation Expertise**: 4 key areas with detailed descriptions
   - Text Annotation
@@ -139,4 +139,4 @@ This project is open source and available for personal and professional use.
 
 ---
 
-**Made with ❤️ | ICT Technician & Data Annotation Specialist**
+**Made with ❤️ by Muchiri | ICT Technician & Data Annotation Specialist**
