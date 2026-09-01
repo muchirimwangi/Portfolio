@@ -3,58 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Muchiri</title>
+    <title>Blog - MUCHIRI</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <h1>Muchiri</h1>
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <div class="logo-main">MUCHIRI</div>
+                    <div class="logo-sub">ICT • DATA • TECH</div>
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#skills">Skills</a></li>
-                <li><a href="index.html#expertise">Expertise</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
     <!-- Blog Header -->
     <section class="blog-header">
-        <div class="container">
-            <h1>My Blog</h1>
-            <p>Insights, Tips & Stories from My Professional Journey</p>
+        <div class="blog-header-content">
+            <h1>Blog & Articles</h1>
+            <p>Insights on Technology and Data Annotation</p>
         </div>
     </section>
 
     <!-- Blog Posts -->
-    <section class="blog-section">
-        <div class="container">
-            <div class="blog-posts" id="blog-posts">
-                <!-- Blog posts will be loaded here from blog.js -->
-            </div>
+    <section class="blog-posts">
+        <div class="blog-posts-container">
+            <div id="blogPostsSection"></div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Muchiri. All rights reserved.</p>
+        <div class="footer-container">
+            <p>&copy; 2026 MUCHIRI. All rights reserved.</p>
             <p>Crafted with <i class="fas fa-heart"></i> | ICT Technician & Data Annotation Specialist</p>
         </div>
     </footer>
 
     <script src="js/blog.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

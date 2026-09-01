@@ -1,95 +1,122 @@
-# Muchiri - Professional Portfolio
+# MUCHIRI - Professional Portfolio
 
 ## 🎯 Overview
 
-Welcome to **Muchiri**, a professional portfolio website showcasing expertise as both an **ICT Technician** and a **Data Annotation Specialist**.
+Welcome to **MUCHIRI**, a modern, high-end professional portfolio website showcasing expertise as both an **ICT Technician** and a **Data Annotation Specialist**.
 
-## 🌟 Features
+## ✨ Features
 
-### 1. **Hero Section**
-- Eye-catching introduction with call-to-action buttons
-- Professional gradient background
-- Responsive avatar placeholder
+### 1. **Modern Dark Theme**
+- Professional gradient design (Cyan, Purple, Gold)
+- High-end aesthetic with glassmorphism effects
+- Smooth animations and transitions
+- Dark background optimized for readability
 
-### 2. **Professional Sections**
-- **About Muchiri**: Dual career overview (ICT Technician & Data Annotation Specialist)
-- **Technical Skills**: Comprehensive skill display across 4 categories
-- **Data Annotation Expertise**: 4 key areas with detailed descriptions
-  - Text Annotation
-  - Image Annotation
-  - Video Annotation
-  - Audio Annotation
+### 2. **Responsive Mobile-First Design**
+- Fully responsive across all devices
+- Mobile hamburger menu
+- Optimized touch interactions
+- Desktop-enhanced experience
 
-### 3. **Blog System**
-- Dedicated blog page with multiple articles
-- Sample posts covering:
-  - Data Annotation techniques
-  - ICT best practices
-  - Professional development
+### 3. **Logo & Branding**
+- Custom gradient logo (M icon)
+- Professional tagline: "ICT • DATA • TECH"
+- Consistent branding throughout
 
-### 4. **Social Integration**
-- Professional social media icons:
-  - LinkedIn
-  - GitHub
-  - Twitter
-  - WhatsApp
-  - Instagram
-  - YouTube
+### 4. **Hero Section**
+- Eye-catching gradient title
+- Professional SVG avatar animation
+- Clear call-to-action buttons
+- Meta information display
 
-### 5. **Responsive Design**
-- Mobile-first approach
-- Hamburger menu for mobile devices
-- Optimized for all screen sizes
+### 5. **Professional Services**
+- **ICT Infrastructure**: Network, systems, hardware, cloud, security, IT support
+- **Data Annotation**: Text, images, video, audio, QA, validation
+- Service cards with hover effects
+
+### 6. **Technical Skills**
+- 6 skill categories with icons
+- Infrastructure, Systems, Data, Security, Cloud, AI/ML
+- Interactive skill cards
+
+### 7. **Blog System**
+- 6 sample blog posts included
+- Articles on Data Annotation and ICT
+- Dedicated blog page
+- Category filtering
+- Featured articles on homepage
+
+### 8. **Contact Section**
+- Email, Phone, Website contact cards
+- Social media integration (LinkedIn, GitHub, Twitter, WhatsApp, Instagram)
+- Professional call-to-action
+
+### 9. **Modern Navigation**
+- Sticky navbar with logo
+- Smooth scrolling
+- Mobile-friendly hamburger menu
+- Gradient underline effects
 
 ## 📁 Project Structure
 
 ```
 Portfolio/
 ├── index.html           # Main homepage
-├── blog.html            # Blog listing page
+├── blog.html            # Blog page
 ├── css/
-│   └── styles.css       # Main stylesheet
+│   └── styles.css       # Complete styling
 ├── js/
-│   ├── script.js        # Main functionality
+│   ├── script.js        # Navigation & animations
 │   └── blog.js          # Blog management
 └── README.md            # This file
 ```
 
-## 🎨 Design Features
+## 🎨 Color Palette
 
-- **Color Scheme**:
-  - Primary: Deep Blue (#1e3a8a)
-  - Secondary: Bright Blue (#3b82f6)
-  - Accent: Amber (#f59e0b)
-  - Light backgrounds for contrast
-
-- **Typography**: Modern, clean fonts using Segoe UI
-- **Spacing**: Consistent padding and margins throughout
-- **Shadows**: Subtle depth with shadow effects
-- **Transitions**: Smooth animations for interactive elements
+- **Primary Dark**: `#0f172a` (Deep Navy)
+- **Secondary Dark**: `#1e293b` (Slate)
+- **Accent Cyan**: `#06b6d4` (Electric Cyan)
+- **Accent Purple**: `#8b5cf6` (Vibrant Purple)
+- **Accent Gold**: `#fbbf24` (Warm Gold)
+- **Text Light**: `#e2e8f0` (Off-white)
+- **Text Muted**: `#94a3b8` (Muted Gray)
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Open `index.html` in your browser
-4. Customize content with your information:
-   - Update personal details
-   - Add your social media links
-   - Modify email and phone number
-   - Personalize blog posts
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/muchirimwangi/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Open in browser**
+   ```bash
+   # Simply open index.html in your browser
+   open index.html
+   ```
+
+3. **Live server (recommended)**
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve
+   ```
 
 ## 📝 Customization
 
 ### Update Personal Information
-Edit `index.html` to add your:
-- Email address
-- Phone number
-- Social media links
-- Profile picture
+
+**In `index.html`:**
+- Replace email in contact section
+- Update phone number
+- Modify social media links (LinkedIn, GitHub, Twitter, etc.)
+
+**In `js/blog.js`:**
+- Add/remove blog posts to the `blogPosts` array
 
 ### Add Blog Posts
-Edit `js/blog.js` to add new blog posts to the `blogPosts` array:
 
 ```javascript
 {
@@ -102,16 +129,25 @@ Edit `js/blog.js` to add new blog posts to the `blogPosts` array:
 }
 ```
 
-### Modify Skills
-Update the skills section in `index.html` to add or remove skills relevant to your profile.
+### Modify Color Scheme
+
+Edit CSS variables in `css/styles.css`:
+```css
+:root {
+    --accent-cyan: #06b6d4;
+    --accent-purple: #8b5cf6;
+    --accent-gold: #fbbf24;
+    /* ... other colors */
+}
+```
 
 ## 🔧 Technologies Used
 
 - **HTML5**: Semantic markup
-- **CSS3**: Modern styling with gradients and flexbox
-- **JavaScript**: Interactivity and smooth scrolling
-- **Font Awesome**: Professional icons
-- **Responsive Design**: Mobile-first approach
+- **CSS3**: Modern styling, gradients, flexbox, grid
+- **JavaScript**: Interactivity, smooth scrolling, animations
+- **Font Awesome**: Professional icons (6.4.0)
+- **SVG**: Custom logo and animations
 
 ## 📱 Browser Support
 
@@ -119,19 +155,25 @@ Update the skills section in `index.html` to add or remove skills relevant to yo
 - Firefox (Latest)
 - Safari (Latest)
 - Edge (Latest)
-- Mobile browsers
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 🌐 Deployment
 
-This portfolio can be easily deployed on:
-- GitHub Pages
+### GitHub Pages
+1. Go to repository Settings
+2. Navigate to Pages
+3. Select `main` branch as source
+4. Your site will be live at: `https://muchirimwangi.github.io/Portfolio/`
+
+### Other Hosting Options
 - Netlify
 - Vercel
+- Firebase Hosting
 - Any static hosting service
 
 ## 📧 Contact
 
-For inquiries or collaborations, please visit the contact section on the website.
+For inquiries or collaborations, please use the contact section on the website.
 
 ## 📄 License
 
@@ -139,4 +181,6 @@ This project is open source and available for personal and professional use.
 
 ---
 
-**Made with ❤️ by Muchiri | ICT Technician & Data Annotation Specialist**
+**Made with ❤️ by MUCHIRI | ICT Technician & Data Annotation Specialist**
+
+**muchirimwangi.co.ke**
