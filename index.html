@@ -3,178 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muchiri - ICT Technician & Data Annotation Specialist</title>
+    <title>MUCHIRI - ICT Technician & Data Annotation Specialist</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <h1>Muchiri</h1>
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <div class="logo-main">MUCHIRI</div>
+                    <div class="logo-sub">ICT • DATA • TECH</div>
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Welcome to Muchiri</h1>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">MUCHIRI</h1>
                 <p class="hero-subtitle">ICT Technician | Data Annotation Specialist</p>
                 <p class="hero-description">Bridging technology and data expertise to deliver innovative solutions</p>
+                <div class="hero-divider"></div>
+                <div class="hero-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-laptop-code"></i> Tech Solutions
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-brain"></i> AI Training Data
+                    </span>
+                </div>
                 <div class="hero-cta">
-                    <a href="#about" class="btn btn-primary">Explore My Work</a>
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="hero-avatar"></div>
+            <div class="hero-avatar">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" fill="none" stroke="url(#grad1)" stroke-width="2"/>
+                    <circle cx="100" cy="100" r="85" fill="none" stroke="url(#grad2)" stroke-width="1" opacity="0.5"/>
+                    <circle cx="100" cy="100" r="60" fill="#0f172a" stroke="#06b6d4" stroke-width="2"/>
+                    <text x="100" y="115" text-anchor="middle" font-size="48" font-weight="bold" fill="#06b6d4" font-family="Arial">M</text>
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                </svg>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Muchiri</h2>
-            <div class="about-content">
-                <div class="about-card">
-                    <h3><i class="fas fa-laptop"></i> ICT Technician</h3>
-                    <p>With extensive experience in IT infrastructure, system administration, and technical support, I ensure seamless technology operations and provide innovative solutions to complex technical challenges.</p>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2 class="section-title">Professional Services</h2>
+            <p class="section-subtitle">Comprehensive solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <!-- ICT Services -->
+                <div class="service-card ict-card">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>ICT Infrastructure</h3>
+                    <p>Expert IT infrastructure management and technical support</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Network Administration</li>
+                        <li><i class="fas fa-check"></i> System Administration</li>
+                        <li><i class="fas fa-check"></i> Hardware Maintenance</li>
+                        <li><i class="fas fa-check"></i> Cloud Services</li>
+                        <li><i class="fas fa-check"></i> Cybersecurity Basics</li>
+                        <li><i class="fas fa-check"></i> IT Support</li>
+                    </ul>
                 </div>
-                <div class="about-card">
-                    <h3><i class="fas fa-database"></i> Data Annotation Specialist</h3>
-                    <p>Expert in preparing high-quality training data for machine learning and AI systems across text, image, video, and audio domains. Dedicated to precision and accuracy in data labeling.</p>
+
+                <!-- Data Annotation Services -->
+                <div class="service-card data-card">
+                    <div class="card-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Annotation</h3>
+                    <p>High-quality training data for AI and machine learning</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Text Annotation</li>
+                        <li><i class="fas fa-check"></i> Image Labeling</li>
+                        <li><i class="fas fa-check"></i> Video Annotation</li>
+                        <li><i class="fas fa-check"></i> Audio Transcription</li>
+                        <li><i class="fas fa-check"></i> Quality Assurance</li>
+                        <li><i class="fas fa-check"></i> Data Validation</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+    <section class="skills">
+        <div class="skills-container">
+            <h2 class="section-title">Technical Expertise</h2>
             <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>ICT Infrastructure</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Network Administration</span>
-                        <span class="skill-tag">System Administration</span>
-                        <span class="skill-tag">Hardware Maintenance</span>
-                        <span class="skill-tag">IT Support</span>
-                        <span class="skill-tag">Server Management</span>
-                        <span class="skill-tag">Cloud Services</span>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🖥️</div>
+                    <h4>Infrastructure</h4>
+                    <p>Network • Servers • Virtualization</p>
                 </div>
-                <div class="skill-category">
-                    <h3>Data Annotation</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Text Annotation</span>
-                        <span class="skill-tag">Image Labeling</span>
-                        <span class="skill-tag">Video Annotation</span>
-                        <span class="skill-tag">Audio Transcription</span>
-                        <span class="skill-tag">Quality Assurance</span>
-                        <span class="skill-tag">Data Validation</span>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h4>Systems</h4>
+                    <p>Windows • Linux • Administration</p>
                 </div>
-                <div class="skill-category">
-                    <h3>Technical Proficiency</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Windows/Linux</span>
-                        <span class="skill-tag">Microsoft Office</span>
-                        <span class="skill-tag">Virtualization</span>
-                        <span class="skill-tag">Cybersecurity Basics</span>
-                        <span class="skill-tag">Troubleshooting</span>
-                        <span class="skill-tag">Documentation</span>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h4>Data</h4>
+                    <p>Annotation • Labeling • QA</p>
                 </div>
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Problem Solving</span>
-                        <span class="skill-tag">Attention to Detail</span>
-                        <span class="skill-tag">Communication</span>
-                        <span class="skill-tag">Time Management</span>
-                        <span class="skill-tag">Team Collaboration</span>
-                        <span class="skill-tag">Adaptability</span>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛡️</div>
+                    <h4>Security</h4>
+                    <p>Cybersecurity • Best Practices</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Expertise Section: Data Annotation 4 Key Areas -->
-    <section id="expertise" class="expertise">
-        <div class="container">
-            <h2 class="section-title">Data Annotation Expertise</h2>
-            <p class="section-subtitle">Specializing in 4 Key Areas of Data Annotation</p>
-            <div class="expertise-grid">
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <h3>Text Annotation</h3>
-                    <p>Precise text labeling, entity recognition, sentiment analysis, and semantic tagging for NLP model training. Ensuring data quality and consistency across large datasets.</p>
-                    <ul class="expertise-list">
-                        <li>Named Entity Recognition</li>
-                        <li>Sentiment Classification</li>
-                        <li>Intent Detection</li>
-                        <li>Text Categorization</li>
-                    </ul>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h4>Cloud</h4>
+                    <p>Cloud Services • Infrastructure</p>
                 </div>
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-image"></i>
-                    </div>
-                    <h3>Image Annotation</h3>
-                    <p>Expert image labeling including bounding boxes, segmentation, and classification. Supporting computer vision and object detection model development with high accuracy.</p>
-                    <ul class="expertise-list">
-                        <li>Bounding Box Annotation</li>
-                        <li>Image Segmentation</li>
-                        <li>Object Detection</li>
-                        <li>Scene Classification</li>
-                    </ul>
-                </div>
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3>Video Annotation</h3>
-                    <p>Frame-by-frame video labeling, action recognition, and temporal annotation. Creating training data for video analysis and action detection systems.</p>
-                    <ul class="expertise-list">
-                        <li>Action Recognition</li>
-                        <li>Frame Annotation</li>
-                        <li>Temporal Tagging</li>
-                        <li>Event Detection</li>
-                    </ul>
-                </div>
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-microphone"></i>
-                    </div>
-                    <h3>Audio Annotation</h3>
-                    <p>Accurate audio transcription, speech tagging, and sound classification. Supporting voice recognition and audio analysis model development with meticulous attention to detail.</p>
-                    <ul class="expertise-list">
-                        <li>Speech Transcription</li>
-                        <li>Sound Classification</li>
-                        <li>Phonetic Labeling</li>
-                        <li>Audio Event Tagging</li>
-                    </ul>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h4>AI/ML</h4>
+                    <p>Training Data • ML Models</p>
                 </div>
             </div>
         </div>
@@ -182,12 +159,14 @@
 
     <!-- Blog Section -->
     <section id="blog" class="blog">
-        <div class="container">
-            <h2 class="section-title">Blog & Articles</h2>
-            <p class="section-subtitle">Insights on Technology and Data Annotation</p>
-            <div class="blog-grid" id="blog-grid">
-                <!-- Blog posts will be loaded here from blog.js -->
+        <div class="blog-container">
+            <h2 class="section-title">Latest Articles</h2>
+            <p class="section-subtitle">Insights on technology and data annotation</p>
+            
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts loaded by JavaScript -->
             </div>
+            
             <div class="blog-cta">
                 <a href="blog.html" class="btn btn-primary">View All Articles</a>
             </div>
@@ -196,44 +175,46 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Let's collaborate and create something amazing</p>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
-                    </div>
-                    <div class="info-card">
-                        <i class="fas fa-phone"></i>
-                        <h3>Phone</h3>
-                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
-                    </div>
+        <div class="contact-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Ready to collaborate? Get in touch today</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
                 </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p><a href="tel:+254XXXXXXXXX">+254 XXX XXX XXX</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h4>Website</h4>
+                    <p><a href="https://muchirimwangi.co.ke">muchirimwangi.co.ke</a></p>
+                </div>
+            </div>
+
+            <div class="social-section">
+                <h3>Follow Me</h3>
                 <div class="social-links">
-                    <h3>Connect With Muchiri</h3>
-                    <div class="social-icons">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/muchirimwangi" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" title="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
+                    <a href="https://linkedin.com" class="social-icon" title="LinkedIn" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/muchirimwangi" class="social-icon" title="GitHub" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com" class="social-icon" title="Twitter" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://whatsapp.com" class="social-icon" title="WhatsApp" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com" class="social-icon" title="Instagram" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -241,8 +222,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Muchiri. All rights reserved.</p>
+        <div class="footer-container">
+            <p>&copy; 2026 MUCHIRI. All rights reserved.</p>
             <p>Crafted with <i class="fas fa-heart"></i> | ICT Technician & Data Annotation Specialist</p>
         </div>
     </footer>
